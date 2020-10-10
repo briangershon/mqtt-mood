@@ -11,8 +11,8 @@ Run with environment variables set for your mqtt server, username and password.
     npm install
     MQTT_BROKER="mqtt://test.mosquitto.org" USERNAME="joe" PASSWORD="smith" npm start
 
-    Press 1 for happy
-    Press 2 for sad
-    Press 3 for angry
+    Press 1 to send 'happy' message
+    Press 2 to send 'sad' message
+    Press 3 to send 'angry' message
 
 You'll also see updates made on the MQTT topic.
