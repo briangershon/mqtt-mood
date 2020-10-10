@@ -12,7 +12,8 @@ client.on("connect", function () {
 });
 
 client.on("message", function (topic, message) {
-  console.log(message.toString());
+  const now = new Date();
+  console.log(now.toLocaleString(), `The mood is ${message.toString()}`);
 });
 
 // Listen for key presses and send messages. ctrl-c to exit
